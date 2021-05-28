@@ -1,4 +1,4 @@
-require_relative '../json_reader'
+require 'json_reader'
 
 class PropertyRepository
   Property = Struct.new(:id, :title)

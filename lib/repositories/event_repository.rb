@@ -1,4 +1,4 @@
-require_relative '../json_reader'
+require 'json_reader'
 
 class EventRepository
   Event = Struct.new(:type, :created_at, :data)
